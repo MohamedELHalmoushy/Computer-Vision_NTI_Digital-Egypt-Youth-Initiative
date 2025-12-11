@@ -1,6 +1,5 @@
 # Computer-Vision_NTI_Digital-Egypt-Youth-Initiative
-# AnimeGANv2 - Real Face to Anime Conversion
-
+# Filter Me - Real Face to Anime Conversion
 ![Project Banner](filtered.jpg)
 
 ## Project Overview
@@ -29,19 +28,3 @@ By combining **deep learning**, **image processing**, and **Generative Adversari
 - Converted images to **tensors** or **NumPy arrays**.  
 - Normalized pixel values from `[0, 255]` to `[-1, 1]`.  
 - Batching & shuffling for stable and efficient training.
-
----
-
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your_username/AnimeGANv2.git
-cd AnimeGANv2
-
-# Create a virtual environment (optional)
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
